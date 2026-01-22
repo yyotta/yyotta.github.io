@@ -16,7 +16,8 @@ Email: [ziyaochen@mail.nwpu.edu.cn](mailto:ziyaochen@mail.nwpu.edu.cn)
 **Northwestern Polytechnical University** | Xi’an, China *(985 Project)*
 *Master of Science in Computer Science* | Sep. 2024 - Jun. 2027
 *   Recommended for Admission (Entrance Exam Waived)
-*   **GPA:** 85.93/100 | **Advisor:** Prof. Lingyun Song
+*    **Advisor:** Prof. Lingyun Song
+*   **GPA:** 85.93/100 
 *   **Honors:** First-Class Entrance Scholarship (2024); Outstanding Master’s Student (2025); Second-Class Scholarship (2025).
 
 **Hefei University of Technology** | Hefei, China *(211 Project)*
@@ -30,7 +31,7 @@ Continual Learning, MLLMs, Knowledge Editing, Mixture-of-Experts, Reinforcement 
 
 ## PUBLICATIONS
 
-1.  Lingyun Song, **Ziyao Chen**, Kang Pan, et al. KSS-MoE: Knowledge Space Synergy framework in Mixture of Experts for Continual Visual Instruction Tuning. **AAAI 2026**. *(Advisor as first author)*
+1.  Lingyun Song, **Ziyao Chen**, Kang Pan, et al. KSS-MoE: Knowledge Space Synergy framework in Mixture of Experts for Continual Visual Instruction Tuning. **AAAI 2026**. *(**Advisor as first author**)*
 2.  **Ziyao Chen**, Xuequn Shang, Lingyun Song. Iteratively-Enhanced Dynamic Expansion Model for Continual Learning. *The 21st International Conference on Web Information Systems and Applications (WISA)*, 2024.
 
 ## RESEARCH EXPERIENCE
