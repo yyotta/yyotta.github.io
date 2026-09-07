@@ -1,13 +1,11 @@
 ---
 permalink: /
-title:
+title: "ZIYAO CHEN"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
-# ZIYAO CHEN
 
 Email: [ziyaochen@mail.nwpu.edu.cn](mailto:ziyaochen@mail.nwpu.edu.cn)
 
