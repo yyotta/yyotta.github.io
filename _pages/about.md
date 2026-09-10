@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Email: [ziyaochen@mail.nwpu.edu.cn](mailto:ziyaochen@mail.nwpu.edu.cn)
-
 ## EDUCATION
 
 **Northwestern Polytechnical University** | Xi'an, China<br>
@@ -30,6 +28,12 @@ Continual Learning, Self-Evolving Agents, Multimodal Large Language Models, Know
 
 2. **Ziyao Chen**, Xuequn Shang, and Lingyun Song. Iteratively-Enhanced Dynamic Expansion Model for Continual Learning. *Web Information Systems and Applications (WISA)* 2024. (**CCF-C; Oral Paper**).
 
+## PATENTS
+
+1. Lingyun Song, **Ziyao Chen**, Xuequn Shang. An Iteratively-Enhanced Dynamic Expansion Continual Learning Model. CN120123765A, Feb. 2025 (Published).
+2. **Ziyao Chen**, Hai Min, Yemao Zhang, Kai Shu, Han Chen. A Facial Landmark Detection Method Based on Mixed-Domain Attention Mechanism. CN115223228B, Aug. 2022 (Granted).
+3. Xuequn Shang, Binze Shi, Lingyun Song, **Ziyao Chen**, et al. Information Diffusion Prediction Method for Hybrid Graph Transformer Based on 2D Positional Encoding Enhancement. CN120541410A, May 2025 (Published).
+
 ## RESEARCH EXPERIENCE
 
 **Research on Multi-Step Reasoning Methods for Complicated Visual Problems under Data Constraints**<br>
@@ -40,7 +44,7 @@ Continual Learning, Self-Evolving Agents, Multimodal Large Language Models, Know
 - Developed multi-granularity knowledge integration and semantic activation mechanisms to retrieve edited knowledge selectively while preserving model behavior on unrelated inputs.
 
 **Step-Level DPO for MoE LLMs in Continual Learning of Complex Multi-Domain Tasks**<br>
-*Lead Graduate Researcher* | Xiaomi Research Fund; May 2025 - Jul. 2026
+*Lead Graduate Researcher* | Xiaomi Open-Competition Research Program; May 2025 - Jul. 2026
 
 - Developed KSS-MoE for continual visual instruction tuning, using internal activations to fuse task-relevant low-rank subspaces from specialized experts for fine-grained collaboration at inference.
 - Designed specialized and shared expert collaboration with conflict masks and orthogonal gradient projection to facilitate cross-task transfer while reducing negative interference.
@@ -53,20 +57,14 @@ Continual Learning, Self-Evolving Agents, Multimodal Large Language Models, Know
 - Constructed visual, textual, multimodal, and shared expert subspaces to strengthen cross-domain knowledge transfer while retaining previously acquired knowledge.
 - Introduced cross-subspace orthogonality constraints to decouple domain-specific and general knowledge optimization, improving generalization while mitigating forgetting and conflicts.
 
-## PATENTS
-
-1. Lingyun Song, **Ziyao Chen**, Xuequn Shang. An Iteratively-Enhanced Dynamic Expansion Continual Learning Model. CN120123765A, Feb. 2025 (Published).
-2. **Ziyao Chen**, Hai Min, Yemao Zhang, Kai Shu, Han Chen. A Facial Landmark Detection Method Based on Mixed-Domain Attention Mechanism. CN115223228B, Aug. 2022 (Granted).
-3. Xuequn Shang, Binze Shi, Lingyun Song, **Ziyao Chen**, et al. Information Diffusion Prediction Method for Hybrid Graph Transformer Based on 2D Positional Encoding Enhancement. CN120541410A, May 2025 (Published).
-
 ## HONORS & AWARDS
 
-- <span style="display: flex; justify-content: space-between; gap: 1rem;"><span>Provincial Silver Award, China International College Students' Innovation Competition *(Project Lead)*</span><span style="white-space: nowrap;">Jul. 2025</span></span>
 - <span style="display: flex; justify-content: space-between; gap: 1rem;"><span>National First Prize, National Computer Competition for Colleges and Universities</span><span style="white-space: nowrap;">Dec. 2022</span></span>
 - <span style="display: flex; justify-content: space-between; gap: 1rem;"><span>Provincial First Prize, Chinese Collegiate Computing Competition (4C) *(Project Lead)*</span><span style="white-space: nowrap;">Aug. 2022</span></span>
 - <span style="display: flex; justify-content: space-between; gap: 1rem;"><span>Provincial First Prize, 16th iCAN Innovation Contest *(Project Lead)*</span><span style="white-space: nowrap;">Sep. 2022</span></span>
-- <span style="display: flex; justify-content: space-between; gap: 1rem;"><span>Provincial Undergraduate Innovation Project *(Project Lead)*</span><span style="white-space: nowrap;">May 2021 - Apr. 2022</span></span>
+- <span style="display: flex; justify-content: space-between; gap: 1rem;"><span>Provincial Silver Award, China International College Students' Innovation Competition *(Project Lead)*</span><span style="white-space: nowrap;">Jul. 2025</span></span>
 - <span style="display: flex; justify-content: space-between; gap: 1rem;"><span>Provincial Second Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM)</span><span style="white-space: nowrap;">Mar. 2023</span></span>
+- <span style="display: flex; justify-content: space-between; gap: 1rem;"><span>Provincial Undergraduate Innovation Program *(Project Lead)*</span><span style="white-space: nowrap;">May 2021 - Apr. 2022</span></span>
 - *Recipient of **more than ten** national, provincial, and ministerial-level awards, including eight as project lead.*
 - First-Class Scholarship
 - Outstanding Graduate Student
