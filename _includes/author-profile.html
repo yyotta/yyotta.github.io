@@ -173,4 +173,82 @@
       {% endif %}      
     </ul>
   </div>
+
+  {% if page.url == "/" or page.url == "/index.html" %}
+  <nav class="side-nav" aria-label="Page sections">
+    <ul>
+      <li><a href="#news">NEWS</a></li>
+      <li><a href="#education">EDUCATION</a></li>
+      <li><a href="#research-interests">RESEARCH INTERESTS</a></li>
+      <li><a href="#publications">PUBLICATIONS</a></li>
+      <li><a href="#patents">PATENTS</a></li>
+      <li><a href="#research-experience">RESEARCH EXPERIENCE</a></li>
+      <li><a href="#honors--awards">HONORS &amp; AWARDS</a></li>
+    </ul>
+  </nav>
+  <style>
+    .side-nav {
+      margin: 1.6em 0 0;
+      padding: 1em 0 0;
+      border-top: 1px solid var(--global-border-color);
+    }
+    .side-nav ul { list-style: none; margin: 0; padding: 0; }
+    .side-nav li { margin: 0.32em 0; }
+    .side-nav a {
+      display: flex;
+      align-items: center;
+      gap: 0.55em;
+      font-size: 0.76em;
+      letter-spacing: 0.04em;
+      color: #111;
+      text-decoration: none;
+    }
+    .side-nav a::before {
+      content: "";
+      flex: none;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--global-border-color);
+      transition: background 0.15s ease-in-out;
+    }
+    .side-nav a:hover { color: var(--global-link-color); }
+    .side-nav a:hover::before { background: var(--global-link-color); }
+    html[data-theme="dark"] .side-nav a { color: #f0f0f0; }
+  </style>
+  <script>
+    (function () {
+      var links = document.querySelectorAll('.side-nav a');
+      if (!links.length) return;
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      function fastScroll(targetY, done) {
+        var startY = window.pageYOffset;
+        var dist = targetY - startY;
+        if (reduce || Math.abs(dist) < 2) { window.scrollTo(0, targetY); done(); return; }
+        var dur = Math.min(420, Math.max(180, Math.abs(dist) * 0.32));
+        var start = null;
+        function step(ts) {
+          if (start === null) start = ts;
+          var p = Math.min(1, (ts - start) / dur);
+          var e = 1 - Math.pow(1 - p, 3);
+          window.scrollTo(0, startY + dist * e);
+          if (p < 1) { requestAnimationFrame(step); } else { done(); }
+        }
+        requestAnimationFrame(step);
+      }
+
+      links.forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          var id = a.getAttribute('href').slice(1);
+          var el = document.getElementById(id);
+          if (!el) return;
+          e.preventDefault();
+          var y = el.getBoundingClientRect().top + window.pageYOffset - 16;
+          fastScroll(y, function () { history.replaceState(null, '', '#' + id); });
+        });
+      });
+    })();
+  </script>
+  {% endif %}
 </div>
