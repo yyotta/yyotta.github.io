@@ -108,6 +108,41 @@ html[data-theme="dark"] .tag {
   color: #f0f0f0;
 }
 html[data-theme="dark"] .hot { color: #ff6b6b; }
+
+@media (hover: hover) and (pointer: fine) {
+  .entry, .news-card, .tag { position: relative; }
+  .entry, .tag { box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+  .entry, .news-card {
+    transition: transform 0.18s ease-out, box-shadow 0.18s ease-out;
+  }
+  .tag {
+    transition: transform 0.15s ease-out, box-shadow 0.15s ease-out,
+                border-color 0.15s ease-out;
+  }
+  .entry:hover, .news-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+    z-index: 2;
+  }
+  .tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    border-color: var(--global-link-color);
+    z-index: 2;
+  }
+  html[data-theme="dark"] .entry:hover,
+  html[data-theme="dark"] .news-card:hover {
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.55);
+  }
+  html[data-theme="dark"] .tag:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    border-color: var(--global-link-color);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .entry, .news-card, .tag { transition: none; }
+  .entry:hover, .news-card:hover, .tag:hover { transform: none; }
+}
 </style>
 
 <div class="news-card">
