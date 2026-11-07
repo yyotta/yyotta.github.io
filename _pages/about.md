@@ -143,6 +143,23 @@ html[data-theme="dark"] .hot { color: #ff6b6b; }
   .entry, .news-card, .tag { transition: none; }
   .entry:hover, .news-card:hover, .tag:hover { transform: none; }
 }
+
+/* Academic typography */
+.page__content {
+  font-family: -apple-system, "Segoe UI", Roboto, Arial,
+               "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  line-height: 1.65;
+  font-variant-numeric: tabular-nums;
+}
+.page__content h2 {
+  font-family: Charter, "Bitstream Charter", Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+.entry:has(.pub-idx) {
+  padding-left: 2.2em;
+  text-indent: -1.15em;
+}
 </style>
 
 <div class="news-card">
